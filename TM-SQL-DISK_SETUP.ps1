@@ -112,5 +112,5 @@ function Create-StripedDisk {
 
 
 Create-StripedDisk -drive_letter "X" -drive_label "Data Drive" -num_disks 10 -pool_name "Data Drive Pool" -logical_drive_name "Data"
-Create-StripedDisk -drive_letter "Y" -drive_label "Data Drive" -num_disks 3  -pool_name "TLog Drive Pool" -logical_drive_name "TLog"
+Create-StripedDisk -drive_letter "Y" -drive_label "Log Drive" -num_disks 3  -pool_name "TLog Drive Pool" -logical_drive_name "TLog"
 Create-StripedDisk -drive_letter "Z" -drive_label "Instrument Drive" -num_disks 2  -pool_name "Instrument Drive Pool" -logical_drive_name "Instrument"
