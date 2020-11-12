@@ -48,8 +48,7 @@ jobs:
         mv oras-install/oras /usr/local/bin/
         rm -rf oras_0.8.1_*.tar.gz oras-install/
       
-    - run: |-
-      oras version
+    - run: oras version
 
 #     # Build the Docker image
 #     - name: Build
